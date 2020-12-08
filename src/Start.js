@@ -6,9 +6,9 @@ export default function Start({ onStart }) {
     const [countDays, setCountDays] = useState(1);
 
     const allGraphemes = {
-        letters: [...Array(26).keys()].map(k => String.fromCharCode('A'.charCodeAt(0) + k)),
-        numbers: [...Array(10).keys()],
-        days:    ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi', 'Dimanche']
+        letter: [...Array(26).keys()].map(k => String.fromCharCode('A'.charCodeAt(0) + k)),
+        number: [...Array(10).keys()],
+        day:    ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi', 'Dimanche']
     };
 
     const getRandom = (arr, n) => {
@@ -28,9 +28,9 @@ export default function Start({ onStart }) {
     const handleSubmit = (e) => {
         e.preventDefault();
         const graphemes = {
-            letters: getRandom(allGraphemes.letters, countLetters),
-            numbers: getRandom(allGraphemes.numbers, countNumbers),
-            days:    getRandom(allGraphemes.days, countDays)
+            letter: getRandom(allGraphemes.letter, countLetters),
+            number: getRandom(allGraphemes.number, countNumbers),
+            day:    getRandom(allGraphemes.day, countDays)
         };
         onStart(graphemes);
     };
