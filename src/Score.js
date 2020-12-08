@@ -18,7 +18,7 @@ export default function Score({ scores, totalScore }) {
                         return Object.entries(graphemes).map(([g, { score }], j) => (
                             <tr
                                 key={`row-${j+i*Object.keys(graphemes).length}`}
-                                className={ (j+i*Object.keys(graphemes).length) % 2 != 0 ? 'bg-gray-200 border-b border-t border-gray-800' : ''}
+                                className={ (j+i*Object.keys(graphemes).length) % 2 !== 0 ? 'bg-gray-200 border-b border-t border-gray-800' : ''}
                             >
                                 <td className="py-3 px-4">
                                     { type === 'letter' && 'Lettre'}
