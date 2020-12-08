@@ -1,7 +1,9 @@
 Synesthésies - Proof of Concept
 ===============================
 
-POC can be accessed at :
+## Demo
+
+POC can be accessed at : (https://3rgo.tech/synesthesies-poc/)
 
 ## Stack
 
