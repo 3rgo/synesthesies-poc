@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/synesthesies-poc/static/css/main.6205dcfb.chunk.css",
+    "main.js": "/synesthesies-poc/static/js/main.1714ed77.chunk.js",
+    "main.js.map": "/synesthesies-poc/static/js/main.1714ed77.chunk.js.map",
+    "runtime-main.js": "/synesthesies-poc/static/js/runtime-main.31abf611.js",
+    "runtime-main.js.map": "/synesthesies-poc/static/js/runtime-main.31abf611.js.map",
+    "static/js/2.2e43e7b6.chunk.js": "/synesthesies-poc/static/js/2.2e43e7b6.chunk.js",
+    "static/js/2.2e43e7b6.chunk.js.map": "/synesthesies-poc/static/js/2.2e43e7b6.chunk.js.map",
+    "index.html": "/synesthesies-poc/index.html",
+    "precache-manifest.b6c9bcd9034ccc434e85509192a5da94.js": "/synesthesies-poc/precache-manifest.b6c9bcd9034ccc434e85509192a5da94.js",
+    "service-worker.js": "/synesthesies-poc/service-worker.js",
+    "static/css/main.6205dcfb.chunk.css.map": "/synesthesies-poc/static/css/main.6205dcfb.chunk.css.map",
+    "static/js/2.2e43e7b6.chunk.js.LICENSE.txt": "/synesthesies-poc/static/js/2.2e43e7b6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.31abf611.js",
+    "static/js/2.2e43e7b6.chunk.js",
+    "static/css/main.6205dcfb.chunk.css",
+    "static/js/main.1714ed77.chunk.js"
+  ]
+}
